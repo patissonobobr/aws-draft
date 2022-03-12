@@ -1,0 +1,9 @@
+cat <<EOF >>/var/www/html/wp-config.php
+define('DB_NAME', 'mydatabase');
+define('DB_USER', 'admin');
+define('DB_PASSWORD', 'Mypassword!');
+define('DB_HOST', 'mydatabase.cvugaezhor0e.eu-central-1.rds.amazonaws.com');
+define( 'FS_METHOD', 'direct' );
+define('WP_MEMORY_LIMIT', '256M');
+
+EOF
